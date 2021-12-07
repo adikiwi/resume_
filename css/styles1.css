@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display&family=Raleway:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+}
+
+/* header start */
+
+.header {
+    /* background: slateblue; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+}
+
+.portrait img {
+    width: 130px;
+    height: 136px;
+    border-radius: 93px;
+}
+
+.main-info {
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.main-info h2 {
+    color: #CECACA;
+    margin-top: 10px;
+}
+
+.main-info__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-info button {
+    width: 100px;
+    padding: 14px;
+    /* margin-top: 25px; */
+    background-color: #d4c17f;
+    border: black solid 2px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* header end */
+
+/* section-1 start */
+
+.section-1 {
+    background: white;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-1 h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-1_blocks {
+    background: rgba(196, 196, 196, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.section-1__left .section-1__right {
+    width: 49%;
+}
+
+.content {
+    background: rgba(196, 196, 196, 0.3);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    padding-bottom: 30px;
+    width: 49%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.skills img {
+    height: 44px;
+    width: 44px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.langhobbie {
+    background: rgba(196, 196, 196, 0.3);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.hobbies {
+    padding-right: 100px;
+}
+
+/* section 1 end */
+
+/* sidebar start */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* sidebar end */
+
+/* footer start */
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+
+.footer h2 {
+    color: white;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.footer_blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left, .footer__right {
+    width: 49%;
+}
+
+.footer__left p {
+    color: white;
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+.footer__right div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer__right input {
+    width: 100%;
+    padding: 14px;
+    background: rgba(197, 197, 194, );
+    border-radius: 50px;
+}
+
+.footer__right input::placeholder {
+    color: black;
+    text-align: center;
+}
+
+.footer__right button {
+    width: 100%;
+    padding: 14px;
+    /* margin-top: 25px; */
+    background-color: #d4c17f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer__right p {
+    color: white;
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 12px;
+}
